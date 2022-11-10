@@ -16,6 +16,7 @@ body{
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .clearfix::after {
@@ -39,11 +40,10 @@ header {
 }
 
 header .container h1 {
-    padding: 30px 0;
+    padding: 30px;
     color: #e53170;
     font-family: 'Fredoka One', cursive;
 }
-
 
 /* Main */
 
@@ -53,14 +53,15 @@ section.container {
 
 .column {
     width: calc(100% / 3);
-    padding: 0 50px;
-    margin-bottom: 30px;
+    padding: 0 15px;
+    margin-bottom: 50px;
 }
 
 .card {
         background-color: #0f0e17;
         color: #FFF;
         box-shadow: 0 0 5px #000;
+        overflow: hidden;
 }
 
 .card .info-card {
@@ -69,7 +70,8 @@ section.container {
 }
 
 .info-card {
-    line-height: 20px;
+    line-height: 30px;
+    margin-left: 5px;
 }
 
 .card .image {
@@ -81,7 +83,8 @@ section.container {
     float: left;
 }
 
-.email {
+.card .email {
     display: block;
     text-decoration: none;
+    font-size: 0.9em;
 }
