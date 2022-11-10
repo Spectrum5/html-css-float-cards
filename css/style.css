@@ -4,3 +4,27 @@
     box-sizing: border-box;
 }
 
+/* Font
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka One', cursive;
+*/
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+}
+
+header .container h1 {
+    padding: 30px 0;
+    color: #e53170;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* Main */
+
